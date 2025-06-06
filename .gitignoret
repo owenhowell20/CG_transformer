@@ -1,0 +1,8 @@
+# Ignore all wandb logs and metadata
+wandb/
+wandb-*/  # in case of wandb runs saved with unique names
+*.wandb
+
+
+# Ignore all cache directories anywhere in the repo
+# **/cache/learning_benchmarks/qm9/data/QM9/processed/data_v3.pt

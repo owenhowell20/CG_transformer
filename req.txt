@@ -1,0 +1,10 @@
+torch>=1.3
+numpy
+scipy
+lie_learn
+joblib
+py3nj
+dgl
+escnn
+torch-geometric
+pytorch-fast-transformers>=0.3.0

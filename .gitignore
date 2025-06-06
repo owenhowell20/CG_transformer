@@ -1,0 +1,11 @@
+# Ignore all wandb logs and metadata
+wandb/
+wandb-*/  # in case of wandb runs saved with unique names
+*.wandb
+
+# Ignore all files and directories containing 'cache' anywhere
+**/cache*/
+*cache*/
+*cache*/**
+**/*cache*
+__pycache__/
